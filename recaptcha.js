@@ -8,11 +8,7 @@ function captchaValidation(form) {
     submitCta.setAttribute("data-sitekey","6LcOPyEkAAAAAKG8ED9p9-kRFgpSV3wiTim5mcUt");
     submitCta.setAttribute("data-action","submit");
     submitCta.addEventListener("click",()=>{
-        if(TOKEN!=null){
             form.requestSubmit(submitCta);
-        }else{
-            form.requestSubmit(submitCta)
-        }
     })
 }
 
