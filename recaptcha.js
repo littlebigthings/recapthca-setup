@@ -3,7 +3,7 @@ class ADDRECAPTCHA {
     constructor(sitekey, callBacks) {
         this.callBackFunctionArry = callBacks || [];
         this.sitekey = sitekey;
-        this.allForms = document.querySelectorAll("[data-wrapper='form']");
+        this.allForms = document.querySelectorAll("[enable-captcha='true']");
         this.init();
     }
 
