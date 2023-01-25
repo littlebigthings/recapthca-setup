@@ -55,3 +55,11 @@ export class ADDRECAPTCHA {
         }
     }
 }
+
+// add site key "" inside bouble quote.
+new ADDRECAPTCHA("6LcOPyEkAAAAAKG8ED9p9-kRFgpSV3wiTim5mcUt", [onSubmit])
+
+function onSubmit(token, form) {
+    console.log(token);
+    console.log(form);
+}
