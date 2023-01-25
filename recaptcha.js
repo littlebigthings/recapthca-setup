@@ -1,5 +1,5 @@
 // class to add google recaptcha into webflow forms
-export class ADDRECAPTCHA {
+class ADDRECAPTCHA {
     constructor(sitekey, callBacks) {
         this.callBackFunctionArry = callBacks || [];
         this.sitekey = sitekey;
